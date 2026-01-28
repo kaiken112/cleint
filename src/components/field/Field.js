@@ -452,9 +452,6 @@ export default function Field({
                             card: cardToKill,
                             index: destroyPos
                         }));
-                        alert(`💀 CARD DESTROYED!\n\n${cardToKill} at position ${destroyPos}`);
-                    } else {
-                        alert(`⚠️ No card at position ${destroyPos}`);
                     }
                     break;
                 case "destroyConfirmed":
