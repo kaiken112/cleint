@@ -3,7 +3,7 @@ import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import { IconButton } from "@mui/material/";
 import { useDispatch, useSelector } from "react-redux";
-import { setHealth, setEvoPoints, setDice } from "../../redux/CardSlice";
+import { setHealth, setEvoPoints } from "../../redux/CardSlice";
 import Leader from "./Leader";
 import sword from "../../assets/logo/sword.png";
 import forest from "../../assets/logo/forest.png";
@@ -43,7 +43,7 @@ export default function PlayerUI({ name }) {
     const reduxCurrentPlayPoints = useSelector(
         (state) => state.card.playPoints.available,
     );
-    const reduxShowDice = useSelector((state) => state.card.showDice);
+    // const reduxShowDice = useSelector((state) => state.card.showDice); // Removed
     const reduxLeaderActive = useSelector((state) => state.card.leaderActive);
 
     useEffect(() => {
@@ -72,10 +72,10 @@ export default function PlayerUI({ name }) {
         console.log(newValue);
     };
 
-    const handleDiceRoll = (value) => {
-        console.log(value);
-        dispatch(setDice({ show: true, roll: value }));
-    };
+    // const handleDiceRoll = (value) => { // Removed
+    //   console.log(value);
+    //   dispatch(setDice({ show: true, roll: value }));
+    // };
 
     // const incrementEP = () => {
     //   setEP((ep) => ep + 1);
