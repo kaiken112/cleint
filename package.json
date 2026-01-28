@@ -27,12 +27,10 @@
         "perfect-arrows": "^0.3.7",
         "r3f-form": "^3.0.2",
         "react": "^18.2.0",
-        "react-dice-roll": "^1.2.2",
         "react-dom": "^18.2.0",
         "react-draggable": "^4.4.6",
         "react-infinite-scroll-component": "^6.1.0",
         "react-lazy-load-image-component": "^1.6.2",
-        "react-native-animated-border": "^1.0.2",
         "react-redux": "^9.0.4",
         "react-refresh": "^0.18.0",
         "react-router-dom": "^6.21.3",
@@ -65,9 +63,5 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
-    },
-    "resolutions": {
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
     }
 }
