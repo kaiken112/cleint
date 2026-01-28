@@ -66,14 +66,8 @@
             "last 1 safari version"
         ]
     },
-    "overrides": {
-        "react-dice-roll": {
-            "react": "$react",
-            "react-dom": "$react-dom"
-        },
-        "react-native-animated-border": {
-            "react": "$react",
-            "react-dom": "$react-dom"
-        }
+    "resolutions": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
     }
 }
